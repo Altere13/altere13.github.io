@@ -1,0 +1,168 @@
+.navlink {
+    padding: 6px;
+}
+header {
+    display: flex;
+    background-color: #404040;
+    height: 45px;
+    width: 100%;
+    position: fixed;
+}
+.lemon {
+    height: 45px;
+}
+nav {
+    width: 100%;
+    font-size: 20px;
+    display: flex;
+}
+.drop {
+    display: inline-block;
+    padding: 6px;
+}
+.content {
+    display: none;
+    position: absolute;
+    background-color: #5a5a5a;
+    border-radius: 5px;
+}
+.drop:hover .content {
+    display: block;
+}
+.content a {
+    padding-left: 5px;
+    font-size: 20px;
+}
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #636363;
+    border: none;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    margin-top: 2.5px;
+    margin-bottom: 2.5px;
+    color: #fff;
+    font-size: 37px;
+    margin-right: 10px;
+}
+.nav-menu {
+    position: fixed;
+    margin-top: 42px;
+    display: none;
+}
+.navicon {
+    display: none;
+    width: 100%;
+}
+ul {
+    background-color: #505050d0;
+    border-radius: 11px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    padding: 0;
+    width: 335px;
+    margin: 0px;
+}
+li {
+    margin-left: 7px;
+    list-style: none;
+    text-align: left;
+    margin-top: 7px;
+    font-size: 33px;
+}
+@media screen and (max-width: 450px){
+    .links {display: none;}
+    .navicon {
+        display: flex;
+        flex-direction: row-reverse;
+    }
+    nav {justify-content: space-between;}
+}
+@media screen and (min-width: 451px) {
+    .nav-menu {display: none;}
+}
+.navlink, .navlink:active {
+    color: #ffffff;
+    text-decoration: none;
+}
+.navlink:hover {
+    color: #e5fbff;
+}
+body {
+    margin: 0;
+    font-family: 'Oswald', sans-serif;
+    background-color: rgb(233, 255, 255);
+    font-size: 20px;
+}
+.gif {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 2.7%;
+    margin-bottom: 5%;
+    flex-wrap: wrap;
+}
+.button, .button:hover, .button:active, .button-s, .button-s:hover, .button-s:active{
+    text-align: center;
+    text-decoration: none;
+    margin-top: 1.5%;
+    margin-bottom: 1.5%;
+    font-size: 22px;
+    border: none;
+    border-radius: 2.5px;
+    background-color: #20B2AA;
+    color: #ffffff;
+}
+.button {width: 44%;}
+.button-s {width: 33%;}
+.icon {
+    width: 15%;
+    float: left;
+    color: white;
+    margin-left: 20px;
+    margin-right: 40px;
+    font-size: 24px;
+    font-family: 'Minecraft', sans-serif;
+    padding: 6px;
+}
+.players {
+    text-align: center;
+}
+.flowers {
+    display: flex;
+    justify-content: space-around;
+}
+h1 {color: black;}
+.world {
+    text-align: center;
+}
+.form {
+    display: flex;
+    flex-direction: column;
+    background-image: url("images/login.gif");
+    background-size: 100%;
+}
+input {
+    width: 35%;
+    margin: auto;
+    margin-bottom: 2%;
+    font-size: 25px;
+}
+#signin {
+    text-decoration: none;
+    margin: auto;
+}
+.states {
+    border: 2px solid #acacac;
+    border-radius: 15px;
+    width: 100%;
+}
+#clock {
+	text-align: center;
+	font-family: 'Trebuchet MS', Helvetica, sans-serif;
+	font-size: 60px;
+	color: #404040;
+	margin-top: 5%;
+}

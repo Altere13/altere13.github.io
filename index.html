@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet", href="style.css", type="text/css">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+    <link rel="manifest" href="site.webmanifest">
+
+    <link href="https://fonts.cdnfonts.com/css/minecraft-4" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>LiteNes</title>
+</head>
+<style>
+    .images {border-radius: 4px;}
+</style>
+<body>
+    <header class="h-back">
+        <nav class="header">
+            <div class="icon">LiteNes</div>
+            <div class="links">
+                <a href="#" class="navlink">Головна</a>
+                <div class="drop">
+                    <a href="#" class="navlink">Світ <i class="fa fa-caret-down"></i></a>
+                    <div class="content">
+                        <a  class="navlink" target="_blank" href="http://65.109.26.167:49213/#minecraft_overworld;flat;-198,64,-374;1">Мапа</a><br>
+                        <a  class="navlink" href="info.html">Інформація про світ</a>
+                    </div>
+                </div>
+                <a  class="navlink" href="players.html">Гравці</a>
+                <a class="navlink" href="states.html">Держави</a>
+            </div>
+            <div class="navicon">
+                <div><button id="btn" class="menu" style="font-size: 25px; color: white;" onclick="menu()">=</button></div>
+            </div>
+        </nav>
+    </header>
+    <div class="nav-menu" id="list">
+        <ul>
+            <li><a class="navlink" href="http://65.109.26.167:49213/#minecraft_overworld;flat;-198,64,-374;1">Мапа</a></li>
+            <li><a class="navlink" href="info.html">Світ</a></li>
+            <li><a class="navlink" href="players.html">Гравці</a></li>
+            <li><a class="navlink" href="states.html">Держави</a></li>
+        </ul>   
+    </div>
+    <div class="lemon"></div>
+    <div class="gif">
+        <img src="images/forest.gif" alt="minecraft_forest" width="44%" height="44%" class="images">
+        <img src="images/lake.gif" alt="minecraft_forest" width="44%" height="44%"  class="images">
+        <a href="states.html" class="button">Держави</a>
+        <a href="players.html" class="button">Гравці</a>
+        <img src="images/ship.gif" alt="minecraft_forest" width="44%" height="44%"  class="images">
+        <img src="images/autumn.gif" alt="minecraft_forest" width="44%" height="44%"  class="images">
+        <a href="info.html" class="button">Інформація про світ</a>
+        <a target="_blank" href="http://65.109.26.167:49213/#minecraft_overworld;flat;-198,64,-374;1" class="button">Мапа світу</a>
+        <img src="images/bigShip.gif" alt="bigShip" width="90%" height="90%"  class="images">
+        <a target="_blank" class="button-s" href="https://discord.com/invite/x5TrfaDVgm">Discord</a>
+        <a target="_blank" class="button-s" href="https://t.me/+WQjaUpDSQN1hYWYy">Telegram</a>
+    </div>
+    <h1 id="clock">00:00:00</h1>
+    <script src="script.js"></script>
+</body>
+</html>
