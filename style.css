@@ -125,6 +125,9 @@ body {
     font-family: 'Minecraft', sans-serif;
     text-decoration: none;
 }
+.icon:hover, .icon:active, .icon {
+    text-decoration: none;
+}
 .players {
     text-align: center;
 }
