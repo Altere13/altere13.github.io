@@ -42,7 +42,7 @@ nav {
     height: 45px;
     width: 30px;
     color: #fff;
-    font-size: 37px;
+    font-size: 25px;
     margin-right: 10px;
 }
 .nav-menu {
@@ -115,6 +115,9 @@ body {
 .button {width: 44%;}
 .button-s {width: 33%;}
 .icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 15%;
     float: left;
     color: white;
